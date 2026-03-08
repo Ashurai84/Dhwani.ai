@@ -543,4 +543,4 @@ Yeh project basically ek AI-powered voice assistant hai banking ke liye:
 
 ---
 
-Made with ❤️ for Indian Banking
+Made with ❤️ for  Banking
