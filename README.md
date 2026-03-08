@@ -253,11 +253,12 @@ Once the server is running, try saying:
 
 | Language | Try Saying |
 |----------|------------|
-| Hindi | "Mujhe home loan chahiye" |
-| Hindi | "Balance check karna hai" |
-| Hindi | "FD rates kya hai?" |
-| English | "I want to open an account" |
-| Tamil | "கடன் பற்றி தெரிய வேண்டும்" |
+| 🇮🇳 Hindi | "Mujhe home loan chahiye" |
+| 🇮🇳 Telugu | "నాకు బ్యాలెన్స్ చెక్ చేయాలి" |
+| 🇮🇳 Bengali | "আমার অ্যাকাউন্ট খুলতে চাই" |
+| 🇬🇧 English | "I want to open an account" |
+| 🇮🇳 Tamil | "கடன் பற்றி தெரிய வேண்டும்" |
+| 🇮🇳 Marathi | "मला FD rates हवे आहेत" |
 
 ---
 
