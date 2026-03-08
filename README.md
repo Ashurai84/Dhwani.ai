@@ -277,20 +277,24 @@ Once the server is running, try saying:
 
 ## 🚀 Deployment
 
-### Railway.app (Recommended)
-```bash
-# Push to GitHub, then:
-# 1. Connect Railway to your GitHub repo
-# 2. Add environment variables
-# 3. Deploy!
-```
+### Render.com (Recommended)
 
-### Manual Deployment
+1. Go to [render.com](https://render.com) and sign up
+2. Click **New → Web Service**
+3. Connect your GitHub repo: `Ashurai84/Dhwani.ai`
+4. Configure:
+   - **Root Directory:** `backend`
+   - **Build Command:** `pip install -r requirements.txt`
+   - **Start Command:** `uvicorn main:app --host 0.0.0.0 --port $PORT`
+5. Add Environment Variables:
+   - `GROQ_API_KEY` = your_key
+   - `SARVAM_API_KEY` = your_key
+6. Click **Deploy!** 🚀
+
+### Local Production
 ```bash
-# Install production server
+cd backend
 pip install gunicorn
-
-# Run
 gunicorn main:app -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
 ```
 
